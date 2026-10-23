@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tiles per row, for the dock and the grid alike (4 to 7). -->
+    <integer name="columns">5</integer>
+
+    <!-- Dock apps, left to right, by package name. Apps that are not installed are skipped.
+         Find a package name with: adb shell pm list packages | grep -i <name> -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>in.startv.hotstar.dplus.tv</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.spotify.tv.android</item>
+    </string-array>
+
+    <!-- Apps never shown in the grid. -->
+    <string-array name="hidden_apps">
+        <item>com.spocky.projengmenu</item>
+    </string-array>
+
+    <!-- Optional wallpaper; pitch black when the file does not exist. -->
+    <string name="wallpaper_path">/sdcard/Pictures/launcher-wallpaper.jpg</string>
+</resources>

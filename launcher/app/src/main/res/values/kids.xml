@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kids Mode tiles, in order: "Name|YouTube channel ID".
+         Find a channel ID: open the channel on youtube.com, View Source, search "externalId".
+         Run tools/kids-fetch.sh afterwards to download the tile pictures, then ./install.sh. -->
+    <string-array name="kids_series">
+        <item>Peppa Pig|UCAOtE1V7Ots4DjM8JLlrYgg</item>
+        <item>Bing|UCyG6ZCj6weaA2_JvnUWWlVA</item>
+        <item>Bing Indonesia|UCqjySA1xjDeJXXFrFgOiihQ</item>
+        <item>Bluey|UCVzLLZkDuFGAE2BGdBuBNBg</item>
+        <item>Ms Rachel|UCG2CL6EUjG8TVT1Tpl9nJdg</item>
+        <item>Blippi|UC5PYHgAzJ1wLEidB58SK6Xw</item>
+        <item>Cocomelon|UCbCmjCuTUZos6Inko4u57UQ</item>
+        <item>Nussa|UCV2jNjJEtO0Hr3b1Es3xPJg</item>
+        <item>Upin &amp; Ipin|UCR1c65UsjpaVgcLKa7eM1tg</item>
+        <item>Omar &amp; Hana|UCFjhhxye7eGjWXHfvQIAH0Q</item>
+        <item>Baby Shark|UCcdwLMPsaU2ezNSJU1nFoBQ</item>
+        <item>Super Simple Songs|UCLsooMJoIpl_7ux2jvdPB-Q</item>
+    </string-array>
+</resources>

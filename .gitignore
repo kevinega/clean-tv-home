@@ -1,0 +1,17 @@
+# Device dumps: serial number, Android ID, settings. Only the restore list is shared.
+backup/*
+!backup/disabled-by-us.txt
+
+# Raw session screenshots (may show network names, accounts)
+shots/
+
+# Channel logos are fetched at build time by tools/kids-fetch.sh, not redistributed
+launcher/app/src/main/assets/kids/
+
+# Build output and local config
+launcher/build/
+launcher/app/build/
+launcher/.gradle/
+launcher/local.properties
+*.apk
+.DS_Store
